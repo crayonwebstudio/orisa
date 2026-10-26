@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 const title = "Orisa - Fashion Agency";
-const description = "Orisa \u2014 Creative Agency & Portfolio HTML Template. Multi-demo layout kit built with Bootstrap 5.";
+const description = "Orisa Index 15 page, creative agency and portfolio template.";
 const styles = ["/assets/css/vendors/carouselTicker.css", "/assets/css/vendors/bootstrap.min.css", "/assets/css/vendors/swiper-bundle.min.css", "/assets/css/vendors/nice-select.css", "/assets/css/vendors/font-awesome-pro.css", "/assets/css/vendors/magnific-popup.css", "/assets/css/vendors/odometer.css", "/assets/css/vendors/spacing.css", "/assets/css/main.css", "/assets/css/sticky-cards.css"];
 const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery-3.7.1.min.js", "/assets/js/vendors/plugin.js", "/assets/js/vendors/bootstrap.min.js", "/assets/js/vendors/swiper-bundle.min.js", "/assets/js/vendors/jquery.carouselTicker.min.js", "/assets/js/vendors/jquery.magnific-popup.min.js", "/assets/js/vendors/jquery.odometer.min.js", "/assets/js/vendors/jquery.appear.js", "/assets/js/vendors/jquery.elevatezoom.js", "/assets/js/vendors/nice-select.js", "/assets/js/vendors/parallax.js", "/assets/js/vendors/ripple-2.js", "/assets/js/vendors/imagesloaded-pkgd.js", "/assets/js/vendors/isotope.pkgd.min.js", "/assets/js/vendors/image-hover-effects.js", "/assets/js/at-cursor.js", "/assets/js/main.js", "/assets/js/sticky-cards.js", "/assets/js/matter.js", "/assets/js/throwable.js"];
 ---
@@ -20,7 +20,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 <p class="h6 fw-700 fz-24 mb-0">Orisa</p>
                             </a>
                         </div>
-                        <button class="at-search-close">
+                        <button class="at-search-close" aria-label="Close search">
                             <i class="fa-light fa-xmark"></i>
                         </button>
                     </div>
@@ -31,7 +31,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     <div class="at-search-form">
                         <form action="#">
                             <div class="at-search-form-input">
-                                <input type="text" placeholder="Find what you need…" required>
+                                <input type="text" placeholder="Find what you need…" required aria-label="Search">
                                 <span class="at-search-focus-border"></span>
                                 <button class="at-search-form-btn at-btn" type="submit">
                                     <span>
@@ -360,7 +360,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     </a>
                 </div>
                 <div class="at-offcanvas-close-btn">
-                    <button class="close-btn">
+                    <button class="close-btn" aria-label="Close menu">
                         <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -378,19 +378,19 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
             <div class="at-offcanvas-gallery d-none d-xl-block">
                 <div class="sec-2-home-5__avatars-row d-flex gap-2">
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa" width="103" height="103">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa" width="103" height="103">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa" width="102" height="103" loading="lazy" decoding="async">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -464,7 +464,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
             <div class="at-offcanvas-2-left">
                 <div class="at-header-logo d-flex justify-content-between align-items-center mb-50">
                     <a href="/">
-                        <img class="dark-mode-invert" data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa">
+                        <img class="dark-mode-invert" data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa" loading="lazy" decoding="async">
                         <p class="h6 fw-700 fz-24 mb-0">Orisa</p>
                     </a>
                     <span class="hamburger-close-btn">
@@ -646,13 +646,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             </div>
                             <div class="col-xxl-3 col-xl-4 col-lg-3 d-flex justify-content-lg-end">
                                 <div class="at-btn-group at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">
-                                    <a class="at-btn-circle" href="/portfolio-1/">
+                                    <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                             <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                         </svg>
                                     </a>
                                     <a class="at-btn z-index-1" href="/portfolio-1/">View latest projects</a>
-                                    <a class="at-btn-circle" href="/portfolio-1/">
+                                    <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                             <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                         </svg>
@@ -709,7 +709,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                     </ul>
                                     <!-- Contact form (compact) -->
                                     <form class="sec-4-about-form sec-2-home-15__form mt-4" action="#" method="post" novalidate>
-                                        <h6 class="sec-2-home-15__form-label2 at_fade_anim mb-0" data-fade-from="bottom" data-delay=".1">Have a project in mind? Drop us a line</h6>
+                                        <h3 class="sec-2-home-15__form-label2 at_fade_anim mb-0" data-fade-from="bottom" data-delay=".1">Have a project in mind? Drop us a line</h3>
                                         <div class="sec-2-home-15__form-row">
                                             <div class="sec-4-about-form__field at_fade_anim" data-fade-from="bottom" data-delay=".15">
                                                 <input type="text" class="sec-4-about-form__input" name="name" placeholder="Your name *" required aria-label="Your name">
@@ -792,7 +792,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             </div>
                             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
                                 <div class="sec-2-home-15__statement at_fade_anim" data-fade-from="bottom" data-delay=".3">
-                                    <img class="sec-2-home-15__statement-icon" src="/assets/imgs/pages/home-15/sec-2-shape-25.svg" alt="orisa">
+                                    <img class="sec-2-home-15__statement-icon" src="/assets/imgs/pages/home-15/sec-2-shape-25.svg" alt="orisa" loading="lazy" decoding="async">
                                     <p class="sec-2-home-15__statement-text mb-0">We always provide people a complete solution upon focused of any business</p>
                                 </div>
                             </div>
@@ -808,9 +808,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa" width="130" height="38" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa" width="125" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa" width="105" height="24" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -818,9 +818,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa" width="125" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa" width="105" height="24" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa" width="120" height="27" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -828,9 +828,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa" width="105" height="24" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa" width="120" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa" width="125" height="28" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -838,9 +838,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa" width="120" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa" width="125" height="28" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa" width="94" height="42" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -848,9 +848,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa" width="125" height="28" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa" width="94" height="42" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa" width="109" height="32" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -858,9 +858,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="09"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa" width="94" height="42" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa" width="109" height="32" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="09"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="orisa" width="117" height="32" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -868,9 +868,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="09"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="10"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa" width="109" height="32" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="09"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="orisa" width="117" height="32" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="10"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="orisa" width="135" height="48" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -878,9 +878,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="09"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="10"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="01"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="09"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="orisa" width="117" height="32" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="10"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="orisa" width="135" height="48" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="01"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="orisa" width="130" height="33" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -888,9 +888,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="10"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="01"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="10"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="orisa" width="135" height="48" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="01"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="orisa" width="130" height="33" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa" width="130" height="38" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -898,9 +898,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="01"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="01"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="orisa" width="130" height="33" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa" width="130" height="38" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa" width="125" height="27" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -908,9 +908,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="02"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="orisa" width="130" height="38" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa" width="125" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa" width="105" height="24" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -918,9 +918,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="03"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="orisa" width="125" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa" width="105" height="24" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa" width="120" height="27" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -928,9 +928,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="04"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="orisa" width="105" height="24" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa" width="120" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa" width="125" height="28" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -938,9 +938,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="05"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="orisa" width="120" height="27" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa" width="125" height="28" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa" width="94" height="42" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -948,9 +948,9 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <li>
                                 <div class="at-brand-item">
                                     <div class="brand">
-                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa"></span>
-                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa"></span>
+                                        <span class="brand-logo-slide" data-logo="06"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="orisa" width="125" height="28" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="07"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="orisa" width="94" height="42" loading="lazy" decoding="async"></span>
+                                        <span class="brand-logo-slide" data-logo="08"><img decoding="async" class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="orisa" width="109" height="32" loading="lazy" decoding="async"></span>
                                     </div>
                                 </div>
                             </li>
@@ -966,13 +966,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                         <div class="sec-4-home-15__title-bar at_fade_anim" data-fade-from="bottom" data-delay=".1">
                             <h2 class="sec-4-home-15__heading reveal-text mb-0">Selected work</h2>
                             <div class="at-btn-group at_fade_anim" data-delay=".2" data-fade-from="bottom" data-ease="bounce">
-                                <a class="at-btn-circle" href="/portfolio-1/">
+                                <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                         <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                     </svg>
                                 </a>
                                 <a class="at-btn z-index-1" href="/portfolio-1/">View latest projects</a>
-                                <a class="at-btn-circle" href="/portfolio-1/">
+                                <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                         <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                     </svg>
@@ -1072,13 +1072,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                         We move at the pace a story deserves. Most projects close in four to eight weeks; some take longer because they should.
                                     </p>
                                     <div class="at-btn-group sec-5-home-15__cta at_fade_anim" data-delay=".3" data-fade-from="bottom" data-ease="bounce">
-                                        <a class="at-btn-circle" href="/contact-1/">
+                                        <a class="at-btn-circle" href="/contact-1/" aria-label="View Contact 1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
                                         </a>
                                         <a class="at-btn z-index-1" href="/contact-1/">Start a project</a>
-                                        <a class="at-btn-circle" href="/contact-1/">
+                                        <a class="at-btn-circle" href="/contact-1/" aria-label="View Contact 1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
@@ -1284,40 +1284,40 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                         <div class="client-capsule-wrapper-box" data-t-throwable-scene="true">
                             <div class="client-capsule-wrapper">
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="Partner logo" width="130" height="38" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="Partner logo" width="125" height="27" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="Partner logo" width="105" height="24" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="Partner logo"></span>
+                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-05.webp" alt="Partner logo" width="120" height="27" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-07.webp" alt="Partner logo" width="94" height="42" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="Partner logo"></span>
+                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-08.webp" alt="Partner logo" width="109" height="32" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="Partner logo"></span>
+                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="Partner logo" width="130" height="38" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="Partner logo" width="130" height="33" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="Partner logo" width="125" height="28" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="Partner logo" width="117" height="32" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="Partner logo"></span>
+                                    <span class="client-box bg-neutral-500"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="Partner logo" width="135" height="48" loading="lazy" decoding="async"></span>
                                 </p>
                                 <p data-t-throwable-el="">
-                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="Partner logo"></span>
+                                    <span class="client-box client-box--brand-h15"><img class="invert-1" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="Partner logo" width="125" height="27" loading="lazy" decoding="async"></span>
                                 </p>
                             </div>
                         </div>
@@ -1449,13 +1449,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                         A curated selection of projects where strategy, creativity, and craftsmanship come together to build meaningful and enduring brand experiences.
                                     </p>
                                     <div class="at-btn-group at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">
-                                        <a class="at-btn-circle" href="/portfolio-1/">
+                                        <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
                                         </a>
                                         <a class="at-btn z-index-1" href="/portfolio-1/">Get a free quote</a>
-                                        <a class="at-btn-circle" href="/portfolio-1/">
+                                        <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
@@ -1599,7 +1599,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     </div>
     <div class="blog-card-2__thumb hover-effect-1">
         <a href="/blog-details/" class="blog-card-2__img-link">
-            <img src="/assets/imgs/pages/img-50.webp" class="blog-card-2__img" alt="Your Marketplace Dreams, We Shape Them Into Seamless Digital Reality">
+            <img src="/assets/imgs/pages/img-50.webp" class="blog-card-2__img" alt="Your Marketplace Dreams, We Shape Them Into Seamless Digital Reality" width="339" height="210" loading="lazy" decoding="async">
         </a>
     </div>
     <div class="blog-card-2__right">
@@ -1619,7 +1619,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     </div>
     <div class="blog-card-2__thumb hover-effect-1">
         <a href="/blog-details/" class="blog-card-2__img-link">
-            <img src="/assets/imgs/pages/img-51.webp" class="blog-card-2__img" alt="Designing Digital Experiences That Connect Brands and People">
+            <img src="/assets/imgs/pages/img-51.webp" class="blog-card-2__img" alt="Designing Digital Experiences That Connect Brands and People" width="339" height="210" loading="lazy" decoding="async">
         </a>
     </div>
     <div class="blog-card-2__right">
@@ -1639,7 +1639,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     </div>
     <div class="blog-card-2__thumb hover-effect-1">
         <a href="/blog-details/" class="blog-card-2__img-link">
-            <img src="/assets/imgs/pages/img-52.webp" class="blog-card-2__img" alt="From Concept to Launch in 2026: Building Products That Truly Matter">
+            <img src="/assets/imgs/pages/img-52.webp" class="blog-card-2__img" alt="From Concept to Launch in 2026: Building Products That Truly Matter" width="339" height="210" loading="lazy" decoding="async">
         </a>
     </div>
     <div class="blog-card-2__right">
@@ -1659,7 +1659,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     </div>
     <div class="blog-card-2__thumb hover-effect-1">
         <a href="/blog-details/" class="blog-card-2__img-link">
-            <img src="/assets/imgs/pages/img-53.webp" class="blog-card-2__img" alt="Why Strong Visual Identity Is the Foundation of Modern Brands">
+            <img src="/assets/imgs/pages/img-53.webp" class="blog-card-2__img" alt="Why Strong Visual Identity Is the Foundation of Modern Brands" width="339" height="210" loading="lazy" decoding="async">
         </a>
     </div>
     <div class="blog-card-2__right">
@@ -1781,7 +1781,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     <section class="footer-15__panel footer-15__panel--brand at_fade_anim" data-fade-from="bottom" data-delay=".3" aria-label="Brand and services">
                         <div class="footer-15__brand-head">
                             <a class="footer-15__brand-mark" href="/index-15/" aria-label="Orisa home">
-                                <img class="footer-15__brand-icon" src="/assets/imgs/template/logo/logo-w.svg" alt="Orisa">
+                                <img class="footer-15__brand-icon" src="/assets/imgs/template/logo/logo-w.svg" alt="Orisa" loading="lazy" decoding="async">
                             </a>
                             <h2 class="footer-15__brand-title mb-0">
                                 <span class="footer-15__brand-title-strong">Let&rsquo;s Sha</span><span class="footer-15__brand-title-muted">pe Your Next Idea</span>
@@ -1862,7 +1862,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     <!-- prettier-ignore -->
     <!-- back to top start -->
     <div class="back-to-top-wrapper">
-        <button id="back_to_top" type="button" class="back-to-top-btn">
+        <button id="back_to_top" type="button" class="back-to-top-btn" aria-label="Back to top">
             <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const title = "Orisa - Creative Agency & Portfolio HTML Template";
-const description = "Orisa \u2014 Creative Agency & Portfolio HTML Template. Multi-demo layout kit built with Bootstrap 5.";
+const title = "Orisa - Index 4 | Creative Agency & Portfolio";
+const description = "Orisa Index 4 page, creative agency and portfolio template.";
 const styles = ["/assets/css/vendors/carouselTicker.css", "/assets/css/vendors/bootstrap.min.css", "/assets/css/vendors/swiper-bundle.min.css", "/assets/css/vendors/nice-select.css", "/assets/css/vendors/font-awesome-pro.css", "/assets/css/vendors/magnific-popup.css", "/assets/css/vendors/odometer.css", "/assets/css/vendors/spacing.css", "/assets/css/main.css"];
 const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery-3.7.1.min.js", "/assets/js/vendors/plugin.js", "/assets/js/vendors/bootstrap.min.js", "/assets/js/vendors/swiper-bundle.min.js", "/assets/js/vendors/jquery.carouselTicker.min.js", "/assets/js/vendors/jquery.magnific-popup.min.js", "/assets/js/vendors/jquery.odometer.min.js", "/assets/js/vendors/jquery.appear.js", "/assets/js/vendors/jquery.elevatezoom.js", "/assets/js/vendors/nice-select.js", "/assets/js/vendors/parallax.js", "/assets/js/vendors/ripple-2.js", "/assets/js/vendors/imagesloaded-pkgd.js", "/assets/js/vendors/isotope.pkgd.min.js", "/assets/js/vendors/image-hover-effects.js", "/assets/js/at-cursor.js", "/assets/js/main.js"];
 ---
@@ -19,7 +19,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 <p class="h6 fw-700 fz-24 mb-0">Orisa</p>
                             </a>
                         </div>
-                        <button class="at-search-close">
+                        <button class="at-search-close" aria-label="Close search">
                             <i class="fa-light fa-xmark"></i>
                         </button>
                     </div>
@@ -30,7 +30,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     <div class="at-search-form">
                         <form action="#">
                             <div class="at-search-form-input">
-                                <input type="text" placeholder="Find what you need…" required>
+                                <input type="text" placeholder="Find what you need…" required aria-label="Search">
                                 <span class="at-search-focus-border"></span>
                                 <button class="at-search-form-btn at-btn" type="submit">
                                     <span>
@@ -328,7 +328,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                         </div>
                         <div class="col-xxl-3 col-lg-4 col-6">
                             <div class="at-header-right gap-3 d-flex justify-content-end align-items-center">
-                                <button class="at-header-search-btn at-search-click">
+                                <button class="at-header-search-btn at-search-click" aria-label="Open search">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M18.7508 18.5233L13.5538 13.392M13.5538 13.392C14.9604 12.0032 15.7506 10.1196 15.7506 8.15551C15.7506 6.19144 14.9604 4.30782 13.5538 2.91902C12.1472 1.53022 10.2395 0.75 8.25028 0.75C6.26108 0.75 4.35336 1.53022 2.94678 2.91902C1.54021 4.30782 0.75 6.19144 0.75 8.15551C0.75 10.1196 1.54021 12.0032 2.94678 13.392C4.35336 14.7808 6.26108 15.561 8.25028 15.561C10.2395 15.561 12.1472 14.7808 13.5538 13.392Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
@@ -349,7 +349,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                         </span>
                                     </label>
                                 </div>
-                                <button class="at-menu-bar at-header-sidebar-btn">
+                                <button class="at-menu-bar at-header-sidebar-btn" aria-label="Open menu">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                         <path d="M1 2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1H6C6.26522 1 6.51957 1.10536 6.70711 1.29289C6.89464 1.48043 7 1.73478 7 2V6C7 6.26522 6.89464 6.51957 6.70711 6.70711C6.51957 6.89464 6.26522 7 6 7H2C1.73478 7 1.48043 6.89464 1.29289 6.70711C1.10536 6.51957 1 6.26522 1 6V2ZM11 2C11 1.73478 11.1054 1.48043 11.2929 1.29289C11.4804 1.10536 11.7348 1 12 1H16C16.2652 1 16.5196 1.10536 16.7071 1.29289C16.8946 1.48043 17 1.73478 17 2V6C17 6.26522 16.8946 6.51957 16.7071 6.70711C16.5196 6.89464 16.2652 7 16 7H12C11.7348 7 11.4804 6.89464 11.2929 6.70711C11.1054 6.51957 11 6.26522 11 6V2ZM1 12C1 11.7348 1.10536 11.4804 1.29289 11.2929C1.48043 11.1054 1.73478 11 2 11H6C6.26522 11 6.51957 11.1054 6.70711 11.2929C6.89464 11.4804 7 11.7348 7 12V16C7 16.2652 6.89464 16.5196 6.70711 16.7071C6.51957 16.8946 6.26522 17 6 17H2C1.73478 17 1.48043 16.8946 1.29289 16.7071C1.10536 16.5196 1 16.2652 1 16V12ZM11 12C11 11.7348 11.1054 11.4804 11.2929 11.2929C11.4804 11.1054 11.7348 11 12 11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12V16C17 16.2652 16.8946 16.5196 16.7071 16.7071C16.5196 16.8946 16.2652 17 16 17H12C11.7348 17 11.4804 16.8946 11.2929 16.7071C11.1054 16.5196 11 16.2652 11 16V12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
@@ -392,7 +392,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     </a>
                 </div>
                 <div class="at-offcanvas-close-btn">
-                    <button class="close-btn">
+                    <button class="close-btn" aria-label="Close menu">
                         <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -410,19 +410,19 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
             <div class="at-offcanvas-gallery d-none d-xl-block">
                 <div class="sec-2-home-5__avatars-row d-flex gap-2">
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa" width="103" height="103">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa" width="103" height="103">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa" width="102" height="103" loading="lazy" decoding="async">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -496,7 +496,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
             <div class="at-offcanvas-2-left">
                 <div class="at-header-logo d-flex justify-content-between align-items-center mb-50">
                     <a href="/">
-                        <img class="dark-mode-invert" data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa">
+                        <img class="dark-mode-invert" data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa" loading="lazy" decoding="async">
                         <p class="h6 fw-700 fz-24 mb-0">Orisa</p>
                     </a>
                     <span class="hamburger-close-btn">
@@ -615,13 +615,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 <div class="col-xxl-4 col-lg-6 col-md-10 ms-lg-auto mt-lg-0 mt-4">
                                     <div class="sec-1-home-4__cards d-flex gap-3 mb-4">
                                         <div class="sec-1-home-4__card rounded-3 overflow-hidden">
-                                            <img class="img-cover" src="/assets/imgs/pages/img-43-lg.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/pages/img-43-lg.webp" alt="orisa" width="361" height="236" loading="lazy" decoding="async">
                                         </div>
                                         <div class="sec-1-home-4__card rounded-3 overflow-hidden">
-                                            <img class="img-cover" src="/assets/imgs/pages/img-74.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/pages/img-74.webp" alt="orisa" width="207" height="128" loading="lazy" decoding="async">
                                         </div>
                                         <div class="sec-1-home-4__card rounded-3 overflow-hidden">
-                                            <img class="img-cover" src="/assets/imgs/pages/img-75.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/pages/img-75.webp" alt="orisa" width="145" height="100" loading="lazy" decoding="async">
                                         </div>
                                     </div>
                                     <div class="sec-1-home-4__tags d-flex flex-wrap gap-3 mt-40">
@@ -750,7 +750,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                     </i>
                                 </span>
                                 <div class="pt-40 ps-5 d-none d-md-block">
-                                    <img class="portfolio-text" src="/assets/imgs/pages/img-gemstone.webp" alt="orisa">
+                                    <img class="portfolio-text" src="/assets/imgs/pages/img-gemstone.webp" alt="orisa" width="78" height="110" loading="lazy" decoding="async">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-9">
@@ -760,27 +760,27 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 <ul class="list-unstyled navigation-section-10">
                                     <li>
                                         <div class="icon-shape size-60 rounded-2 fix">
-                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li>
                                         <div class="icon-shape size-60 rounded-2 fix">
-                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li>
                                         <div class="icon-shape size-60 rounded-2 fix">
-                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa" width="102" height="103" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li>
                                         <div class="icon-shape size-60 rounded-2 fix">
-                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li>
                                         <div class="icon-shape size-60 rounded-2 fix">
-                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa">
+                                            <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                 </ul>
@@ -797,7 +797,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                         <div class="row g-3">
                             <div class="col-lg-3 col-md-6">
                                 <div class="at-service-card card-1 rounded-4 overflow-hidden p-relative bg-cover" data-background="/assets/imgs/pages/img-76.webp">
-                                    <a href="#" class="p-absolute top-0 left-0 w-100 h-100"></a>
+                                    <a href="#" class="p-absolute top-0 left-0 w-100 h-100" aria-label="Open link"></a>
                                     <div class="at-service-card-content text-white p-absolute bottom-0 start-0 end-0 m-xxl-5 m-4">
                                         <div class="at-service-card-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -814,7 +814,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="col-lg-3 col-md-6">
                                 <div class="at-service-card card-2 rounded-4 overflow-hidden p-relative bg-neutral-0">
                                     <a href="#" class="p-absolute bottom-0 start-0 end-0">
-                                        <img class="img-cover" src="/assets/imgs/pages/img-77.webp" alt="orisa">
+                                        <img class="img-cover" src="/assets/imgs/pages/img-77.webp" alt="orisa" width="408" height="349" loading="lazy" decoding="async">
                                     </a>
                                     <div class="at-service-card-content p-absolute top-0 left-0 m-xxl-5 m-4">
                                         <div class="at-service-card-icon">
@@ -833,10 +833,10 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="col-lg-3 col-md-6">
                                 <div class="at-service-card card-3 rounded-4 overflow-hidden p-relative">
                                     <a href="#" class="p-absolute top-0 left-0">
-                                        <img class="img-cover" src="/assets/imgs/pages/img-78.webp" alt="orisa">
+                                        <img class="img-cover" src="/assets/imgs/pages/img-78.webp" alt="orisa" width="408" height="168" loading="lazy" decoding="async">
                                     </a>
                                     <a href="#" class="p-absolute bottom-0 start-0 end-0">
-                                        <img class="img-cover" src="/assets/imgs/pages/img-79.webp" alt="orisa">
+                                        <img class="img-cover" src="/assets/imgs/pages/img-79.webp" alt="orisa" width="408" height="156" loading="lazy" decoding="async">
                                     </a>
                                     <div class="at-service-card-content text-white p-absolute top-50 left-0 mx-xxl-5 mx-4 translate-middle-y">
                                         <div class="at-service-card-icon">
@@ -854,7 +854,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="col-lg-3 col-md-6">
                                 <div class="at-service-card card-2 rounded-4 overflow-hidden p-relative bg-neutral-0">
                                     <a href="#" class="p-absolute bottom-0 start-0 end-0">
-                                        <img class="img-cover" src="/assets/imgs/pages/img-80.webp" alt="orisa">
+                                        <img class="img-cover" src="/assets/imgs/pages/img-80.webp" alt="orisa" width="408" height="144" loading="lazy" decoding="async">
                                     </a>
                                     <div class="at-service-card-content p-absolute top-50 left-0 mx-xxl-5 mx-4 translate-middle-y">
                                         <div class="at-service-card-icon">
@@ -924,13 +924,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 </div>
                                 <div class="col-lg-3 ms-auto d-flex justify-content-lg-end">
                                     <div class="at-btn-group at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">
-                                        <a class="at-btn-circle" href="/contact-1/">
+                                        <a class="at-btn-circle" href="/contact-1/" aria-label="View Contact 1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
                                         </a>
                                         <a class="at-btn z-index-1" href="/contact-1/">Get a free quote</a>
-                                        <a class="at-btn-circle" href="/contact-1/">
+                                        <a class="at-btn-circle" href="/contact-1/" aria-label="View Contact 1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
@@ -995,7 +995,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="row align-items-center g-md-5 g-4 mt-lg-0 mt-20">
                                 <div class="col-lg-3 order-lg-1 order-2">
                                     <div class="at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">
-                                        <img src="/assets/imgs/pages/img-85.webp" alt="orisa">
+                                        <img src="/assets/imgs/pages/img-85.webp" alt="orisa" width="450" height="410" loading="lazy" decoding="async">
                                     </div>
                                 </div>
                                 <div class="col-lg-4 order-lg-2 order-1">
@@ -1040,13 +1040,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 </div>
                                 <div class="col-lg-3 ms-auto d-flex justify-content-lg-end">
                                     <div class="at-btn-group at-btn-group-transparent at_fade_anim" data-delay=".5" data-fade-from="bottom" data-ease="bounce">
-                                        <a class="at-btn-circle" href="/portfolio-4/">
+                                        <a class="at-btn-circle" href="/portfolio-4/" aria-label="View Portfolio 4">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
                                         </a>
                                         <a class="at-btn z-index-1" href="/portfolio-4/">View All Projects</a>
-                                        <a class="at-btn-circle" href="/portfolio-4/">
+                                        <a class="at-btn-circle" href="/portfolio-4/" aria-label="View Portfolio 4">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                                 <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                             </svg>
@@ -1096,10 +1096,10 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                             <div class="card_case__studies-right">
                                                 <div class="card_case__studies-thumb anim-zoomin">
                                                     <a href="#">
-                                                        <img src="/assets/imgs/pages/img-86.webp" alt="AI-Driven Demand Forecasting System">
+                                                        <img src="/assets/imgs/pages/img-86.webp" alt="AI-Driven Demand Forecasting System" width="819" height="689" loading="lazy" decoding="async">
                                                     </a>
                                                     <div class="card_case__studies-play p-relative postbox-play-btn">
-                                                        <a class="popup-video size-100" href="https://www.youtube.com/watch?v=VCPGMjCW0is">
+                                                        <a class="popup-video size-100" href="https://www.youtube.com/watch?v=VCPGMjCW0is" aria-label="View Https://Www.Youtube.Com/Watch?V=Vcpgmjcw0Is">
                                                             <span class="text-white">
                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="44" viewBox="0 0 35 44" fill="none">
                                                                     <path d="M6.40193e-06 5.72002V38.28C6.40193e-06 40.7629 2.76819 42.2714 4.90001 40.92L30.8 24.64C31.2534 24.3566 31.6269 23.9644 31.8858 23.5001C32.1446 23.0358 32.2803 22.5144 32.2803 21.9843C32.2803 21.4543 32.1446 20.9328 31.8858 20.4685C31.6269 20.0042 31.2534 19.612 30.8 19.3286L4.90001 3.08002C4.42009 2.77341 3.86529 2.60044 3.29413 2.57934C2.72298 2.55824 2.15665 2.6898 1.65488 2.96014C1.15312 3.23048 0.734523 3.62957 0.443259 4.11532C0.151995 4.60107 -0.00114111 5.15546 6.40193e-06 5.72002Z" fill="#FEFEFE" />
@@ -1117,7 +1117,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                     <div class="card_case__studies-card card_case__studies-card--overlay">
                                         <div class="card_case__studies-visual">
                                             <a href="#">
-                                                <img src="/assets/imgs/pages/img-87.webp" alt="Smart Automation">
+                                                <img src="/assets/imgs/pages/img-87.webp" alt="Smart Automation" width="822" height="674" loading="lazy" decoding="async">
                                             </a>
                                             <div class="card_case__studies-metric-overlay">
                                                 <h4 class="card_case__studies-metric-value mb-0">+<span class="odometer" data-count="30"></span>%</h4>
@@ -1144,7 +1144,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                     <div class="card_case__studies-card card_case__studies-card--overlay">
                                         <div class="card_case__studies-visual">
                                             <a href="#">
-                                                <img src="/assets/imgs/pages/img-88.webp" alt="Data Intelligence">
+                                                <img src="/assets/imgs/pages/img-88.webp" alt="Data Intelligence" width="822" height="674" loading="lazy" decoding="async">
                                             </a>
                                             <div class="card_case__studies-metric-overlay">
                                                 <h4 class="card_case__studies-metric-value mb-0">-<span class="odometer" data-count="20"></span>%</h4>
@@ -1187,27 +1187,27 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                     <span class="neutral-500 fw-600 text-uppercase">trusted by</span>
                                     <div class="d-flex align-items-center flex-wrap gap-lg-5 gap-4 mb-40 pt-30">
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="Brand 1">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-09.webp" alt="Brand 1" width="117" height="32" loading="lazy" decoding="async">
                                         </div>
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="Brand 2">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-01.webp" alt="Brand 2" width="130" height="33" loading="lazy" decoding="async">
                                         </div>
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="Brand 3">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-02.webp" alt="Brand 3" width="130" height="38" loading="lazy" decoding="async">
                                         </div>
                                     </div>
                                     <div class="d-flex align-items-center flex-wrap gap-lg-5 gap-4">
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="Brand 4">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-03.webp" alt="Brand 4" width="125" height="27" loading="lazy" decoding="async">
                                         </div>
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="Brand 5">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-04.webp" alt="Brand 5" width="105" height="24" loading="lazy" decoding="async">
                                         </div>
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="Brand 6">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-10.webp" alt="Brand 6" width="135" height="48" loading="lazy" decoding="async">
                                         </div>
                                         <div class="brand">
-                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="Brand 7">
+                                            <img class="dark-mode-invert" src="/assets/imgs/template/logo/logo-brand-06.webp" alt="Brand 7" width="125" height="28" loading="lazy" decoding="async">
                                         </div>
                                     </div>
                                 </div>
@@ -1228,13 +1228,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                     </div>
                                     <div class="col-lg-3 col-md-4 ms-auto d-flex justify-content-lg-end">
                                         <div class="at-btn-group at-btn-group-transparent at_fade_anim" data-delay=".5" data-fade-from="bottom" data-ease="bounce">
-                                            <a class="at-btn-circle" href="/portfolio-4/">
+                                            <a class="at-btn-circle" href="/portfolio-4/" aria-label="View Portfolio 4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                     <path d="M5.00013 13.9999L5 5.00003L7 5L7.0001 11.9999L17.1719 12L13.2222 8.05027L14.6364 6.63606L21.0003 13L14.6364 19.364L13.2222 17.9497L17.1719 14L5.00013 13.9999Z" fill="currentColor" />
                                                 </svg>
                                             </a>
                                             <a class="at-btn z-index-1" href="/portfolio-4/">View All Awards</a>
-                                            <a class="at-btn-circle" href="/portfolio-4/">
+                                            <a class="at-btn-circle" href="/portfolio-4/" aria-label="View Portfolio 4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                                     <path d="M5.00013 13.9999L5 5.00003L7 5L7.0001 11.9999L17.1719 12L13.2222 8.05027L14.6364 6.63606L21.0003 13L14.6364 19.364L13.2222 17.9497L17.1719 14L5.00013 13.9999Z" fill="currentColor" />
                                                 </svg>
@@ -1248,7 +1248,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                             <a href="https://globaldigitalawards.com" target="_blank" class="card-award-link">
                                                 <div class="card-award-content">
                                                     <div class="card-award-image">
-                                                        <img src="/assets/imgs/pages/img-89-sm.webp" alt="Award" class="w-100 h-100" />
+                                                        <img src="/assets/imgs/pages/img-89-sm.webp" alt="Award" class="w-100 h-100" / width="89" height="62" loading="lazy" decoding="async">
                                                     </div>
                                                     <h4 class="h6 card-award-title mb-0">Best AI & Technology Agency</h4>
                                                 </div>
@@ -1269,7 +1269,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                             <a href="https://techexcellenceforum.org" target="_blank" class="card-award-link">
                                                 <div class="card-award-content">
                                                     <div class="card-award-image">
-                                                        <img src="/assets/imgs/pages/img-90-sm.webp" alt="Award" class="w-100 h-100" />
+                                                        <img src="/assets/imgs/pages/img-90-sm.webp" alt="Award" class="w-100 h-100" / width="89" height="62" loading="lazy" decoding="async">
                                                     </div>
                                                     <h4 class="h6 card-award-title mb-0">Innovation in Intelligent Systems</h4>
                                                 </div>
@@ -1290,7 +1290,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                             <a href="https://internationaluxawards.com" target="_blank" class="card-award-link">
                                                 <div class="card-award-content">
                                                     <div class="card-award-image">
-                                                        <img src="/assets/imgs/pages/img-91-sm.webp" alt="Award" class="w-100 h-100" />
+                                                        <img src="/assets/imgs/pages/img-91-sm.webp" alt="Award" class="w-100 h-100" / width="89" height="62" loading="lazy" decoding="async">
                                                     </div>
                                                     <h4 class="h6 card-award-title mb-0">Outstanding Digital Experience Design</h4>
                                                 </div>
@@ -1311,7 +1311,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                             <a href="https://enterprisetechnetwork.org" target="_blank" class="card-award-link">
                                                 <div class="card-award-content">
                                                     <div class="card-award-image">
-                                                        <img src="/assets/imgs/pages/img-92-sm.webp" alt="Award" class="w-100 h-100" />
+                                                        <img src="/assets/imgs/pages/img-92-sm.webp" alt="Award" class="w-100 h-100" / width="89" height="62" loading="lazy" decoding="async">
                                                     </div>
                                                     <h4 class="h6 card-award-title mb-0">Trusted Partner of the Year</h4>
                                                 </div>
@@ -1332,7 +1332,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                             <a href="https://globaldigitalawards.com" target="_blank" class="card-award-link">
                                                 <div class="card-award-content">
                                                     <div class="card-award-image">
-                                                        <img src="/assets/imgs/pages/img-93-sm.webp" alt="Award" class="w-100 h-100" />
+                                                        <img src="/assets/imgs/pages/img-93-sm.webp" alt="Award" class="w-100 h-100" / width="89" height="62" loading="lazy" decoding="async">
                                                     </div>
                                                     <h4 class="h6 card-award-title mb-0">Best AI & Technology Agency</h4>
                                                 </div>
@@ -1391,7 +1391,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     <div class="team-card-2">
         <div class="team-card-2__image">
             <div class="anim-zoomin">
-                <img src="/assets/imgs/pages/img-94.webp" alt="Alex Morgan" class="img-cover">
+                <img src="/assets/imgs/pages/img-94.webp" alt="Alex Morgan" class="img-cover" width="553" height="688" loading="lazy" decoding="async">
             </div>
             <div class="team-card-2__social">
                 <a href="#" class="team-card-2__social-link" aria-label="Twitter">
@@ -1438,7 +1438,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     <div class="team-card-2">
         <div class="team-card-2__image">
             <div class="anim-zoomin">
-                <img src="/assets/imgs/pages/img-95.webp" alt="Alex Morgan" class="img-cover">
+                <img src="/assets/imgs/pages/img-95.webp" alt="Alex Morgan" class="img-cover" width="553" height="688" loading="lazy" decoding="async">
             </div>
             <div class="team-card-2__social">
                 <a href="#" class="team-card-2__social-link" aria-label="Twitter">
@@ -1485,7 +1485,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     <div class="team-card-2">
         <div class="team-card-2__image">
             <div class="anim-zoomin">
-                <img src="/assets/imgs/pages/img-96.webp" alt="Alex Morgan" class="img-cover">
+                <img src="/assets/imgs/pages/img-96.webp" alt="Alex Morgan" class="img-cover" width="553" height="688" loading="lazy" decoding="async">
             </div>
             <div class="team-card-2__social">
                 <a href="#" class="team-card-2__social-link" aria-label="Twitter">
@@ -1647,7 +1647,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="blog-card col-lg-3 col-md-6 col-12 mb-30" data-category="@@category">
                                 <div class="blog-card__thumb hover-effect-1">
                                     <a href="/blog-details/" class="blog-card__img-link">
-                                        <img src="/assets/imgs/pages/img-97.webp" class="blog-card__img22" alt="orisa">
+                                        <img src="/assets/imgs/pages/img-97.webp" class="blog-card__img22" alt="orisa" width="408" height="360" loading="lazy" decoding="async">
                                     </a>
                                 </div>
                                 <div class="blog-card__content">
@@ -1664,7 +1664,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="blog-card col-lg-3 col-md-6 col-12 mb-30" data-category="@@category">
                                 <div class="blog-card__thumb hover-effect-1">
                                     <a href="/blog-details/" class="blog-card__img-link">
-                                        <img src="/assets/imgs/pages/img-98.webp" class="blog-card__img22" alt="orisa">
+                                        <img src="/assets/imgs/pages/img-98.webp" class="blog-card__img22" alt="orisa" width="408" height="360" loading="lazy" decoding="async">
                                     </a>
                                 </div>
                                 <div class="blog-card__content">
@@ -1681,7 +1681,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="blog-card col-lg-3 col-md-6 col-12 mb-30" data-category="@@category">
                                 <div class="blog-card__thumb hover-effect-1">
                                     <a href="/blog-details/" class="blog-card__img-link">
-                                        <img src="/assets/imgs/pages/img-99.webp" class="blog-card__img22" alt="orisa">
+                                        <img src="/assets/imgs/pages/img-99.webp" class="blog-card__img22" alt="orisa" width="408" height="360" loading="lazy" decoding="async">
                                     </a>
                                 </div>
                                 <div class="blog-card__content">
@@ -1698,7 +1698,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <div class="blog-card col-lg-3 col-md-6 col-12 mb-30" data-category="@@category">
                                 <div class="blog-card__thumb hover-effect-1">
                                     <a href="/blog-details/" class="blog-card__img-link">
-                                        <img src="/assets/imgs/pages/img-100.webp" class="blog-card__img22" alt="orisa">
+                                        <img src="/assets/imgs/pages/img-100.webp" class="blog-card__img22" alt="orisa" width="408" height="360" loading="lazy" decoding="async">
                                     </a>
                                 </div>
                                 <div class="blog-card__content">
@@ -1909,7 +1909,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     </div>
     <!-- back to top start -->
     <div class="back-to-top-wrapper">
-        <button id="back_to_top" type="button" class="back-to-top-btn">
+        <button id="back_to_top" type="button" class="back-to-top-btn" aria-label="Back to top">
             <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>

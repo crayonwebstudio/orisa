@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 const title = "Orisa - 3D Studio";
-const description = "Orisa \u2014 Creative Agency & Portfolio HTML Template. Multi-demo layout kit built with Bootstrap 5.";
+const description = "Orisa Index 10 page, creative agency and portfolio template.";
 const styles = ["/assets/css/vendors/carouselTicker.css", "/assets/css/vendors/bootstrap.min.css", "/assets/css/vendors/swiper-bundle.min.css", "/assets/css/vendors/nice-select.css", "/assets/css/vendors/font-awesome-pro.css", "/assets/css/vendors/magnific-popup.css", "/assets/css/vendors/odometer.css", "/assets/css/vendors/spacing.css", "/assets/css/main.css"];
 const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery-3.7.1.min.js", "/assets/js/vendors/plugin.js", "/assets/js/vendors/bootstrap.min.js", "/assets/js/vendors/swiper-bundle.min.js", "/assets/js/vendors/jquery.carouselTicker.min.js", "/assets/js/vendors/jquery.magnific-popup.min.js", "/assets/js/vendors/jquery.odometer.min.js", "/assets/js/vendors/jquery.appear.js", "/assets/js/vendors/jquery.elevatezoom.js", "/assets/js/vendors/nice-select.js", "/assets/js/vendors/parallax.js", "/assets/js/vendors/ripple-2.js", "/assets/js/vendors/imagesloaded-pkgd.js", "/assets/js/vendors/isotope.pkgd.min.js", "/assets/js/vendors/image-hover-effects.js", "/assets/js/at-cursor.js", "/assets/js/main.js", "/assets/js/cursor-trail.js"];
 ---
@@ -20,7 +20,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 <p class="h6 fw-700 fz-24 mb-0">Orisa</p>
                             </a>
                         </div>
-                        <button class="at-search-close">
+                        <button class="at-search-close" aria-label="Close search">
                             <i class="fa-light fa-xmark"></i>
                         </button>
                     </div>
@@ -31,7 +31,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     <div class="at-search-form">
                         <form action="#">
                             <div class="at-search-form-input">
-                                <input type="text" placeholder="Find what you need…" required>
+                                <input type="text" placeholder="Find what you need…" required aria-label="Search">
                                 <span class="at-search-focus-border"></span>
                                 <button class="at-search-form-btn at-btn" type="submit">
                                     <span>
@@ -361,7 +361,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                     </a>
                 </div>
                 <div class="at-offcanvas-close-btn">
-                    <button class="close-btn">
+                    <button class="close-btn" aria-label="Close menu">
                         <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.19141 9.80762L27.5762 28.1924" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M9.19141 28.1924L27.5762 9.80761" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -379,19 +379,19 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
             <div class="at-offcanvas-gallery d-none d-xl-block">
                 <div class="sec-2-home-5__avatars-row d-flex gap-2">
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-10.webp" alt="orisa" width="103" height="103">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-11.webp" alt="orisa" width="103" height="103">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-12.webp" alt="orisa" width="102" height="103" loading="lazy" decoding="async">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-13.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                     </div>
                     <div class="sec-2-home-5__avatar-sm at-offcanvas-gallery-img">
-                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa">
+                        <img class="img-cover" src="/assets/imgs/template/avatar/avatar-14.webp" alt="orisa" width="103" height="103" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -465,7 +465,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
             <div class="at-offcanvas-2-left">
                 <div class="at-header-logo d-flex justify-content-between align-items-center mb-50">
                     <a href="/">
-                        <img class="dark-mode-invert" data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa">
+                        <img class="dark-mode-invert" data-width="30" src="/assets/imgs/template/logo/favicon.svg" alt="Orisa" loading="lazy" decoding="async">
                         <p class="h6 fw-700 fz-24 mb-0">Orisa</p>
                     </a>
                     <span class="hamburger-close-btn">
@@ -542,7 +542,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
 
                     <!-- Decorative background lines texture -->
                     <div class="sec-1-home-10__bg-lines" aria-hidden="true">
-                        <img src="/assets/imgs/pages/home-10/sec-1-bg-lines.webp" alt="">
+                        <img src="/assets/imgs/pages/home-10/sec-1-bg-lines.webp" alt="" loading="lazy" decoding="async">
                     </div>
 
                     <!-- Cursor trail layer (scoped) -->
@@ -623,7 +623,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <!-- Info text card -->
                             <div class="sec-1-home-10__info-card">
                                 <div class="sec-1-home-10__info-icon" aria-hidden="true">
-                                    <img src="/assets/imgs/pages/home-10/sec-1-shape-25.webp" alt="" width="48" height="48">
+                                    <img src="/assets/imgs/pages/home-10/sec-1-shape-25.webp" alt="" width="48" height="48" loading="lazy" decoding="async">
                                 </div>
                                 <p class="sec-1-home-10__info-text">
                                     We dissolve the boundary between screen and spectator, crafting environments that invite you to step inside rather than just look on.
@@ -645,7 +645,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                 </section>
                 <section class="sec-2-home-10" aria-label="Studio showcase">
                     <div class="fix anim-zoomin">
-                        <img data-speed=".8" class="sec-2-home-10__img" src="/assets/imgs/pages/home-10/sec-2-scene.webp" alt="orisa">
+                        <img data-speed=".8" class="sec-2-home-10__img" src="/assets/imgs/pages/home-10/sec-2-scene.webp" alt="orisa" loading="lazy" decoding="async">
                     </div>
                 </section>
                 <!-- Home 10 / section 3 — Selected projects masonry -->
@@ -673,7 +673,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <article class="sec-3-home-10__card sec-3-home-10__card--pos1 at_fade_anim" data-delay="0.1">
                                 <a class="sec-3-home-10__media sec-3-home-10__media--sm" href="/portfolio-details-1/">
                                     <div class="anim-zoomin">
-                                        <img src="/assets/imgs/pages/home-10/sec-3-project-1.webp" alt="orisa">
+                                        <img src="/assets/imgs/pages/home-10/sec-3-project-1.webp" alt="orisa" loading="lazy" decoding="async">
                                     </div>
                                 </a>
                                 <div class="sec-3-home-10__body">
@@ -689,7 +689,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <article class="sec-3-home-10__card sec-3-home-10__card--pos2 at_fade_anim" data-delay="0.12">
                                 <a class="sec-3-home-10__media sec-3-home-10__media--lg" href="/portfolio-details-1/">
                                     <div class="anim-zoomin">
-                                        <img src="/assets/imgs/pages/home-10/sec-3-project-2.webp" alt="orisa">
+                                        <img src="/assets/imgs/pages/home-10/sec-3-project-2.webp" alt="orisa" loading="lazy" decoding="async">
                                     </div>
                                 </a>
                                 <div class="sec-3-home-10__body">
@@ -705,7 +705,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <article class="sec-3-home-10__card sec-3-home-10__card--pos3 at_fade_anim" data-delay="0.14">
                                 <a class="sec-3-home-10__media sec-3-home-10__media--lg" href="/portfolio-details-1/">
                                     <div class="anim-zoomin">
-                                        <img src="/assets/imgs/pages/home-10/sec-3-project-3.webp" alt="orisa">
+                                        <img src="/assets/imgs/pages/home-10/sec-3-project-3.webp" alt="orisa" loading="lazy" decoding="async">
                                     </div>
                                 </a>
                                 <div class="sec-3-home-10__body">
@@ -721,7 +721,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <article class="sec-3-home-10__card sec-3-home-10__card--pos4 at_fade_anim" data-delay="0.16">
                                 <a class="sec-3-home-10__media sec-3-home-10__media--sm" href="/portfolio-details-1/">
                                     <div class="anim-zoomin">
-                                        <img src="/assets/imgs/pages/home-10/sec-3-project-4.webp" alt="orisa">
+                                        <img src="/assets/imgs/pages/home-10/sec-3-project-4.webp" alt="orisa" loading="lazy" decoding="async">
                                     </div>
                                 </a>
                                 <div class="sec-3-home-10__body">
@@ -737,7 +737,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <article class="sec-3-home-10__card sec-3-home-10__card--pos5 at_fade_anim" data-delay="0.18">
                                 <a class="sec-3-home-10__media sec-3-home-10__media--lg" href="/portfolio-details-1/">
                                     <div class="anim-zoomin">
-                                        <img src="/assets/imgs/pages/home-10/sec-3-project-5.webp" alt="orisa">
+                                        <img src="/assets/imgs/pages/home-10/sec-3-project-5.webp" alt="orisa" loading="lazy" decoding="async">
                                     </div>
                                 </a>
                                 <div class="sec-3-home-10__body">
@@ -870,7 +870,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                         </div>
 
                         <figure class="sec-5-home-10__figure at_fade_anim mx-auto" data-delay="0.12">
-                            <img class="sec-5-home-10__figure-img" src="/assets/imgs/pages/home-10/sec-5-wireframe-head.webp" alt="orisa">
+                            <img class="sec-5-home-10__figure-img" src="/assets/imgs/pages/home-10/sec-5-wireframe-head.webp" alt="orisa" loading="lazy" decoding="async">
                         </figure>
 
                         <div class="sec-5-home-10__stats row g-4 g-lg-5 pb-4">
@@ -899,112 +899,112 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                                 <ul class="carouselTicker__list">
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand" width="147" height="40" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand" width="173" height="43" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand" width="162" height="47" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-4.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-4.webp" alt="logo-brand" width="167" height="35" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand" width="105" height="24" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-6.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-6.webp" alt="logo-brand" width="170" height="48" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand" width="147" height="40" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand" width="173" height="43" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand" width="162" height="47" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand" width="105" height="24" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-6.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-6.webp" alt="logo-brand" width="170" height="48" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand" width="147" height="40" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand" width="173" height="43" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand" width="162" height="47" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-4.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-4.webp" alt="logo-brand" width="167" height="35" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand" width="105" height="24" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-6.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-6.webp" alt="logo-brand" width="170" height="48" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-1.webp" alt="logo-brand" width="147" height="40" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-2.webp" alt="logo-brand" width="173" height="43" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-3.webp" alt="logo-brand" width="162" height="47" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-4.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-4.webp" alt="logo-brand" width="167" height="35" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                     <li class="carouselTicker__item">
                                         <div class="brand-item dark-mode-invert">
-                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand">
+                                            <img src="/assets/imgs/icons/brand-5.webp" alt="logo-brand" width="105" height="24" loading="lazy" decoding="async">
                                         </div>
                                     </li>
                                 </ul>
@@ -1147,13 +1147,13 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
                             <h2 class="footer-10__headline mb-0 at_fade_anim reveal-text" data-delay="0.05">Ready to step beyond the flat screen?</h2>
                             <div class="sec-5-home-9__cta-wrap">
                                 <div class="at-btn-group at_fade_anim" data-delay=".4" data-fade-from="bottom" data-ease="bounce">
-                                    <a class="at-btn-circle" href="/portfolio-1/">
+                                    <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                             <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                         </svg>
                                     </a>
                                     <a class="at-btn z-index-1" href="/portfolio-1/">INITIATE COLLABORATION</a>
-                                    <a class="at-btn-circle" href="/portfolio-1/">
+                                    <a class="at-btn-circle" href="/portfolio-1/" aria-label="View Portfolio 1">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                                             <path d="M0.0001297 8.99993L0 3.00407e-05L2 0L2.0001 6.99993L12.1719 7.00003L8.22224 3.05027L9.63644 1.63606L16.0003 8.00003L9.63644 14.364L8.22224 12.9497L12.1719 9.00003L0.0001297 8.99993Z" fill="currentColor" />
                                         </svg>
@@ -1271,7 +1271,7 @@ const scripts = ["/assets/js/vendors/color-modes.js", "/assets/js/vendors/jquery
     <!-- prettier-ignore -->
     <!-- back to top start -->
     <div class="back-to-top-wrapper">
-        <button id="back_to_top" type="button" class="back-to-top-btn">
+        <button id="back_to_top" type="button" class="back-to-top-btn" aria-label="Back to top">
             <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>

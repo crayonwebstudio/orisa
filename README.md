@@ -1,7 +1,13 @@
 # Orisa (Astro conversion)
 
 Astro static conversion of the supplied Orisa HTML template, for
-https://orisa.woodwolfdigital.com (not yet deployed, see Status).
+https://orisa.woodwolfdigital.com.
+
+LIVE 2026-10-26: GitHub crayonwebstudio/orisa commit 46f1a19, Coolify
+project orisa bp4dqatacllnxyjrogk6wsox, app owri9pwjaeajr92sqpsmjkmt,
+deployment nue2aqo95jmrnzajn3n7x7wn finished, verified live: home,
+index-2, index-3, index-4, about-1, services-1 and portfolio-2 all 200,
+dark URLs 404, old .html URLs 301 to clean URLs, true 404 page works.
 
 ## Conversion
 

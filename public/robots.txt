@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://orisa.woodwolfdigital.com/sitemap.xml
