@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  styles: string[];
+  scripts: string[];
+  theme?: string;
+  bodyClass?: string;
+}
+const { title, description, styles, scripts, theme, bodyClass } = Astro.props;
+const site = Astro.site ? Astro.site.toString().replace(/\/$/, '') : 'https://orisa.woodwolfdigital.com';
+const canonical = Astro.url.pathname === '/404.html' ? `${site}/404.html` : `${site}${Astro.url.pathname}`;
+---
+<!doctype html>
+<html lang="en" data-bs-theme={theme}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/template/logo/favicon.svg" />
+    {styles.map((href) => <link rel="stylesheet" href={href} />)}
+  </head>
+  <body class={bodyClass}>
+    <slot />
+    {scripts.map((src) => <script src={src} is:inline></script>)}
+  </body>
+</html>
